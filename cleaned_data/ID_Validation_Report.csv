@@ -1,0 +1,149 @@
+table,issue,column,value,action
+areas,Exact duplicate rows,,,Removed 1 exact duplicate rows
+restaurants,Exact duplicate rows,,,Removed 2 exact duplicate rows
+customers,Exact duplicate rows,,,Removed 14 exact duplicate rows
+orders,Exact duplicate rows,,,Removed 52 exact duplicate rows
+delivery_partners,Exact duplicate rows,,,Removed 1 exact duplicate rows
+feedback,Exact duplicate rows,,,Removed 18 exact duplicate rows
+orders,Duplicate primary key,order_id,O100348,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100043,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100512,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100445,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100681,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100762,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100048,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100009,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100512,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O101126,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O101261,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100018,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O101322,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O101432,Kept first occurrence; later occurrences removed
+orders,Duplicate primary key,order_id,O100032,Kept first occurrence; later occurrences removed
+orders,Missing mandatory values,"order_id, customer_id, restaurant_id, order_datetime, order_amount, payment_mode, order_status",46,Removed rows with missing mandatory values
+orders,Invalid order amounts,order_amount,17,Removed rows with invalid order amounts
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+orders,Unmatched reference to delivery_partners,partner_id,,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100091,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100126,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100130,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100157,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100181,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100225,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100323,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100356,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100437,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100444,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100456,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100697,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100787,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100967,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O100995,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101009,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101016,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101046,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101278,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101286,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101359,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101366,Retained child row; unmatched parent details will be missing after left join
+feedback,Unmatched reference to orders,order_id,O101431,Retained child row; unmatched parent details will be missing after left join
